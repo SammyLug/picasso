@@ -1,0 +1,65 @@
+.header {
+  background-color: yellowgreen;
+  text-align: center;
+  color: lightcoral;
+}
+
+#zindex {
+  color: wheat;
+  border: 2px solid purple;
+  border-radius: 100px;
+  background-color: plum;
+  width: fit-content;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 90px;
+
+}
+
+.button {
+  color: wheat;
+  border: 2px solid purple;
+  border-radius: 10px;
+  background-color: plum;
+  width: fit-content;
+  padding: 10px 100px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;  
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#title {
+  padding-top: 50px;
+  text-shadow: 10px 5px 10px lightpink;
+}
+
+.subheading {
+  background-color: teal;
+  text-align: center;
+  color: wheat;
+}
+
+.topcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.midcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#footer {
+  color: wheat;
+}
